@@ -26,7 +26,7 @@ string BigNumAdd(string &n1, string &n2)
         i++;
     }
     if (c)
-        result.push_back(c);
+        result.push_back(c + '0');
 
     return result;
 }
